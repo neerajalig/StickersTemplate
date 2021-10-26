@@ -40,7 +40,7 @@ namespace StickersTemplate.Cards
                 {
                     new CardImage
                     {
-                        ////Alt = this.sticker.Name,
+                        Alt = this.sticker.Name,
                         Url = this.sticker.ImageUri.ToString()
                     }
                 }

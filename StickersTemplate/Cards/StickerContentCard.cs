@@ -37,7 +37,7 @@ namespace StickersTemplate.Cards
         {
             var card = new AdaptiveCard
             {
-                Speak = this.sticker.Name,
+                ////Speak = this.sticker.Name,
                 Body = new List<AdaptiveElement>()
                 {
                     new AdaptiveImage
